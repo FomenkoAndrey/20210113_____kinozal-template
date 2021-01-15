@@ -90,6 +90,14 @@ a:hover, a:focus {
   color: #df8a13;
 }
 
+h1 {
+  margin: 0;
+  font-family: "PT Serif", serif;
+  font-size: 3rem;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+
 .header-logo {
   padding: 100px 0;
   text-align: center;
@@ -110,6 +118,30 @@ a:hover, a:focus {
   letter-spacing: 0.2em;
   color: #ffffff;
   font-size: 1.15rem;
+}
+
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.main .site-login {
+  margin-bottom: 60px;
+}
+
+.new-films-row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  margin-bottom: -15px;
+}
+
+.new-films-item {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  margin-bottom: 15px;
+}
+
+.new-films-item__thumbnail {
+  margin-bottom: 0;
 }
 
 .left-sidebar .panel:last-of-type {
